@@ -1,4 +1,4 @@
-# BinaryQRScanner
+# BinaryQRScanner (iOS 13 +)
 
 BinaryQRScanner is a SwiftUI framework that allows you to scan QR codes. The purpose of the framework was the idea of working with binary data. You can encode, compress and put information into a QR Code yourself. With BinaryQRScanner, you can easily scan such QR codes and retrieve the binary data for further processing. It also supports working with String type data.
 
