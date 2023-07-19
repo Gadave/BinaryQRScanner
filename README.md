@@ -1,10 +1,16 @@
 # BinaryQRScanner
 
-BinaryQRScanner is a SwiftUI framework that allows you to scan QR codes. The purpose of the framework was the idea of working with binary data. You can encode, compress and put information into a QR Code yourself. BinaryQRScanner allows you to scan such QR codes and get binary data that you can work with, you can also use BinaryQRScanner to work with String type data. 
+BinaryQRScanner is a SwiftUI framework that allows you to scan QR codes. The purpose of the framework was the idea of working with binary data. You can encode, compress and put information into a QR Code yourself. With BinaryQRScanner, you can easily scan such QR codes and retrieve the binary data for further processing. It also supports working with String type data.
 
 ## Installation with Swift Package Manager
 
-Simply import the project using the link:
+To integrate BinaryQRScanner into your project, follow these steps:
+
+Open your project in Xcode.
+Go to File > Swift Packages > Add Package Dependency.
+Enter the repository URL: https://github.com/Gadave/BinaryQRScanner.
+Follow the prompts to complete the integration.
+
 ```
 https://github.com/Gadave/BinaryQRScanner
 ```
@@ -13,12 +19,16 @@ https://github.com/Gadave/BinaryQRScanner
 
 ## Usage
 
-Write Import statement on your source file
+Import the BinaryQRScanner module into your source file:
 ```swift
 import BinaryQRScanner
 ```
 
-**Important:** iOS *requires* you to add the "Privacy - Camera Usage Description" key to your Info.plist file, providing a reason for why you want to access the camera.
+**Important:** 
+Important: In order to access the camera, iOS requires you to add the "Privacy - Camera Usage Description" key to your Info.plist file. Provide a reason for why your app needs access to the camera by adding the following entry:
+
+Key: Privacy - Camera Usage Description
+Value: "We need camera access to scan QR codes."
 
 <img src="https://github.com/Gadave/BinaryQRScanner/blob/main/images/img2.png" width="500">
 
