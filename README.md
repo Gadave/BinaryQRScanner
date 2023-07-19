@@ -8,12 +8,11 @@ To integrate BinaryQRScanner into your project, follow these steps:
 
 Open your project in Xcode.
 Go to File > Swift Packages > Add Package Dependency.
-Enter the repository URL: https://github.com/Gadave/BinaryQRScanner.
-Follow the prompts to complete the integration.
-
+Enter the repository URL: 
 ```
 https://github.com/Gadave/BinaryQRScanner
 ```
+Follow the prompts to complete the integration.
 
 <img src="https://github.com/Gadave/BinaryQRScanner/blob/main/images/img1.png" width="500">
 
