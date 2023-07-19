@@ -24,7 +24,7 @@ import BinaryQRScanner
 ```
 
 **Important:** 
-Important: In order to access the camera, iOS requires you to add the "Privacy - Camera Usage Description" key to your Info.plist file. Provide a reason for why your app needs access to the camera by adding the following entry:
+In order to access the camera, iOS requires you to add the "Privacy - Camera Usage Description" key to your Info.plist file. Provide a reason for why your app needs access to the camera by adding the following entry:
 
 Key: Privacy - Camera Usage Description
 Value: "We need camera access to scan QR codes."
@@ -70,8 +70,8 @@ struct BinaryQRScannerSampleView: View {
         continueScanning: () -> Void
     ) {
         if case .success(let result) = result {
-            if case .text(_) = result {
-                print(result)
+            if case .text(let text) = result {
+                print(text)
             } else if case .binary(let data) = result {
                 // Provide your code for processing binary data
             }
