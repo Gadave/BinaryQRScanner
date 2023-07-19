@@ -9,7 +9,7 @@ Simply import the project using the link:
 https://github.com/Gadave/BinaryQRScanner
 ```
 
-<img src="" width="500">
+<img src="https://github.com/Gadave/BinaryQRScanner/blob/main/images/img1.png" width="500">
 
 ## Usage
 
@@ -20,7 +20,7 @@ import BinaryQRScanner
 
 **Important:** iOS *requires* you to add the "Privacy - Camera Usage Description" key to your Info.plist file, providing a reason for why you want to access the camera.
 
-<img src="" width="500">
+<img src="https://github.com/Gadave/BinaryQRScanner/blob/main/images/img2.png" width="500">
 
 
 ## Examples
